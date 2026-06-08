@@ -8,9 +8,8 @@ function App() {
 
   return (
     <>
-  
-
-<div style={{ width: '100%', height: '600px', position: 'relative' }}>
+<div class='w-full h-screen bg-black '>
+<div style={{ width: '100%', height: '600px', position: 'relative'  }}>
   <Beams
     beamWidth={3}
     beamHeight={30}
@@ -22,7 +21,7 @@ function App() {
     rotation={30}
   />
 </div>
-          
+      </div>
     </>
   )
 }
