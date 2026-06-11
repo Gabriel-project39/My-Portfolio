@@ -36,18 +36,25 @@ function App() {
           id="home"
           className="relative z-10 min-h-screen flex flex-col justify-center items-center text-white"
         >
-          <h1 className="text-6xl font-bold mb-4">
+          <h1 className="text-8xl font-extrabold mb-10">
             Gabriel Kimanthi
           </h1>
 
-          <h2 className="text-2xl text-gray-300 mb-4">
-            Frontend Developer
-          </h2>
+          <div className="flex justify-center items-center gap-8 mb-6">
+  <button className="px-6 py-2 bg-white/10 border border-white/20 rounded-full text-white backdrop-blur-md hover:bg-white/20 transition">
+    Frontend Developer
+  </button>
 
-          <p className="text-center max-w-xl text-gray-400">
-            I build responsive and modern web applications
-            using React, JavaScript and Tailwind CSS.
-          </p>
+  <button className="px-6 py-2 bg-white/10 border border-white/20 rounded-full text-white backdrop-blur-md hover:bg-white/20 transition">
+    React Developer
+  </button>
+
+  <button className="px-6 py-2 bg-white/10 border border-white/20 rounded-full text-white backdrop-blur-md hover:bg-white/20 transition">
+    UI Designer
+  </button>
+</div>
+
+          
         </section>
 
       </div>
