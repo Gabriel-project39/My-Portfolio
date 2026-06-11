@@ -4,6 +4,22 @@ import Beams from "./Beams";
 import './Beams.css'
 import Navbar from "./Navbar";
 
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaBootstrap,
+  FaGithub,
+  FaFigma,
+} from "react-icons/fa";
+
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiTypescript,
+} from "react-icons/si";
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -65,6 +81,54 @@ function App() {
         </section>
 
       </div>
+
+      <section className="w-full bg-[#0F172A] py-32">
+        
+  <div className="max-w-7xl mx-auto px-6">
+
+    <h2 className="text-6xl md:text-8xl font-bold text-white text-center">
+      Empowering brands worldwide with exceptional
+      <span className="text-cyan-400"> Software</span> solutions.
+    </h2>
+
+    
+ <div className="mt-32">
+      <h3 className="text-center text-white text-4xl font-bold mb-12">
+        Technologies I Use
+      </h3>
+</div>
+      <div className="mt-40 backdrop-blur-lg bg-white/5 border border-white/10 rounded-3xl p-12">
+
+  <div className="flex flex-wrap justify-center items-center gap-12">
+
+    <FaHtml5 className="text-7xl text-orange-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+
+    <FaCss3Alt className="text-7xl text-blue-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+
+    <FaJs className="text-7xl text-yellow-400 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+
+    <FaReact className="text-7xl text-cyan-400 hover:scale-125 hover:rotate-180 transition-all duration-500 cursor-pointer" />
+
+    <FaBootstrap className="text-7xl text-purple-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+
+    <SiTailwindcss className="text-7xl text-cyan-300 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+
+    <FaGithub className="text-7xl text-white hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+
+    <FaFigma className="text-7xl text-pink-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+
+    <SiNextdotjs className="text-7xl text-white hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+
+    <SiTypescript className="text-7xl text-blue-400 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+
+  </div>
+
+</div>
+
+    </div>
+
+
+</section>
 
       {/* OTHER SECTIONS */}
       <section id="about"></section>
