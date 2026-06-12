@@ -130,6 +130,45 @@ function App() {
 
 </section>
 
+ <div className="min-h-screen bg-black text-white px-10 py-20">
+      <h1 className="text-5xl font-bold text-center mb-6">
+        My Projects
+      </h1>
+
+      <p className="text-center text-gray-400 mb-16">
+        A collection of projects I have built and worked on.
+      </p>
+
+      {/* Projects Grid */}
+      <div className="grid md:grid-cols-3 gap-8">
+
+        {/* Project Card */}
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:scale-105 transition">
+          <img
+            src="decode.png"
+            alt="Project"
+            className="rounded-xl mb-4"
+          />
+
+          <h2 className="text-2xl font-semibold mb-2">
+            Decode Solution
+          </h2>
+
+          <p className="text-gray-400 mb-4">
+            Smart transport guide showing routes, fares and stages.
+          </p>
+
+         <a
+  href="/project"
+  className="px-4 py-2 bg-white text-black rounded-full inline-block"
+>
+  View Project
+</a>
+        </div>
+
+      </div>
+    </div>
+
       {/* OTHER SECTIONS */}
       <section id="about"></section>
       <section id="projects"></section>
