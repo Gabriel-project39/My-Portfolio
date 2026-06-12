@@ -130,44 +130,118 @@ function App() {
 
 </section>
 
- <div className="min-h-screen bg-black text-white px-10 py-20">
-      <h1 className="text-5xl font-bold text-center mb-6">
-        My Projects
-      </h1>
+ {/* PROJECTS SECTION */}
+<section className="bg-black text-white px-10 py-10">
+  <h1 className="text-5xl font-bold text-center mb-6">
+    My Projects
+  </h1>
 
-      <p className="text-center text-gray-400 mb-16">
-        A collection of projects I have built and worked on.
+  <p className="text-center text-gray-400 mb-8">
+    A collection of projects I have built and worked on.
+  </p>
+
+  {/* Projects Grid */}
+  <div className="grid md:grid-cols-2 gap-8">
+
+    {/* Decode Solution */}
+    <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-300">
+      <img
+        src="decode.png"
+        alt="Decode Solution"
+        className="rounded-xl mb-4 w-full"
+      />
+
+      <h2 className="text-2xl font-semibold mb-2">
+        Decode Solution
+      </h2>
+
+      <p className="text-gray-400 mb-4">
+        Modern business solutions website built with React and Tailwind CSS.
       </p>
 
-      {/* Projects Grid */}
-      <div className="grid md:grid-cols-3 gap-8">
-
-        {/* Project Card */}
-        <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:scale-105 transition">
-          <img
-            src="decode.png"
-            alt="Project"
-            className="rounded-xl mb-4"
-          />
-
-          <h2 className="text-2xl font-semibold mb-2">
-            Decode Solution
-          </h2>
-
-          <p className="text-gray-400 mb-4">
-            Smart transport guide showing routes, fares and stages.
-          </p>
-
-         <a
-  href="/project"
-  className="px-4 py-2 bg-white text-black rounded-full inline-block"
->
-  View Project
-</a>
-        </div>
-
-      </div>
+      <a
+        href="/project"
+        className="px-4 py-2 bg-white text-black rounded-full inline-block"
+      >
+        View Project
+      </a>
     </div>
+
+    {/* MatatuMap */}
+    <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-300">
+      <img
+        src="elixir.png"
+        alt="MatatuMap"
+        className="rounded-xl mb-4 w-full"
+      />
+
+      <h2 className="text-2xl font-semibold mb-2">
+        MatatuMap
+      </h2>
+
+      <p className="text-gray-400 mb-4">
+        Smart transport guide helping commuters navigate routes and fares.
+      </p>
+
+      <a
+        href="/project"
+        className="px-4 py-2 bg-white text-black rounded-full inline-block"
+      >
+        View Project
+      </a>
+    </div>
+
+    {/* Velocity Motors */}
+    <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-300">
+      <img
+        src="fast.png"
+        alt=""
+        className="rounded-xl mb-4 w-full"
+      />
+
+      <h2 className="text-2xl font-semibold mb-2">
+        Velocity Motors
+      </h2>
+
+      <p className="text-gray-400 mb-4">
+        Professional car dealership website showcasing vehicles and services.
+      </p>
+
+      <a
+        href="/project"
+        className="px-4 py-2 bg-white text-black rounded-full inline-block"
+      >
+        View Project
+      </a>
+    </div>
+
+    {/* Brew Haven Coffee */}
+    <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-300">
+      <img
+        src="cofe.png"
+        alt="Brew Haven Coffee"
+        className="rounded-xl mb-4 w-full"
+      />
+
+      <h2 className="text-2xl font-semibold mb-2">
+        Brew Haven Coffee
+      </h2>
+
+      <p className="text-gray-400 mb-4">
+        Modern coffee shop website focused on branding and customer experience.
+      </p>
+
+      <a
+        href="/project"
+        className="px-4 py-2 bg-white text-black rounded-full inline-block"
+      >
+        View Project
+      </a>
+
+  </div>
+  </div>
+</section>
+
 
       {/* OTHER SECTIONS */}
       <section id="about"></section>
