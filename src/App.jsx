@@ -245,42 +245,74 @@ function App() {
   </div>
 </section>
 
-<section className="min-h-screen bg-black flex items-center justify-center px-6">
-      <div className="text-center">
+{/* Contact Section */}
+<section className="bg-black flex items-center justify-center py-24 px-6">
+  <div className="text-center">
 
-        {/* Heading */}
-        <h2 className="text-white text-4xl md:text-6xl font-bold leading-tight">
-          Let's work <br />
-          together. <br />
-          Get in touch.
-        </h2>
+    {/* Heading */}
+    <h2 className="text-white text-4xl md:text-6xl font-bold leading-tight">
+      Let's work <br />
+      together. <br />
+      Get in touch.
+    </h2>
 
-        {/* Social Icons */}
-        <div className="flex justify-center gap-8 mt-8">
+    {/* Social Icons */}
+    <div className="flex justify-center gap-8 mt-8">
 
-          <a
-            href="mailto:gabrielkimanthi39r@email.com"
-            className="text-white text-4xl hover:scale-110 transition duration-300"
-          >
-            <MdEmail />
-          </a>
+      <a
+        href="mailto:gabrielkimanthi39r@email.com"
+        className="text-white text-4xl hover:scale-110 transition duration-300"
+      >
+        <MdEmail />
+      </a>
 
-          <a
-            href="www.linkedin.com/in/gabriel-kimanthi-8777ab344"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white text-4xl hover:scale-110 transition duration-300"
-          >
-            <FaLinkedinIn />
-          </a>
-        </div>
+      <a
+        href="https://www.linkedin.com/in/gabriel-kimanthi-8777ab344"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-white text-4xl hover:scale-110 transition duration-300"
+      >
+        <FaLinkedinIn />
+      </a>
 
-      </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+{/* Footer */}
+<footer className="bg-black text-white py-10 px-6 border-t border-gray-800">
+
+  {/* Copyright */}
+  <p className="text-center text-gray-400 text-sm mb-8">
+    © Gabriel Kimanthi 2026
+  </p>
+
+  {/* Footer Links */}
+  <div className="max-w-4xl mx-auto flex justify-center gap-16 text-sm md:text-base">
+
+    <a
+      href="https://www.linkedin.com/in/gabriel-kimanthi-8777ab344"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-yellow-300 transition duration-300"
+    >
+      LinkedIn
+    </a>
+
+    <a
+      href="mailto:gabrielkimanthi39r@email.com"
+      className="hover:text-yellow-300 transition duration-300"
+    >
+      Mail
+    </a>
+
+  </div>
+
+</footer>
 
 
       {/* OTHER SECTIONS */}
-      <section id="about"></section>
+      <section id="profile"></section>
       <section id="projects"></section>
     </>
   )

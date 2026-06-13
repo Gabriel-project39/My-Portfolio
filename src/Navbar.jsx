@@ -10,14 +10,14 @@ export default function Navbar() {
           </li>
 
           <li>
-            <a href="#about" className="hover:text-gray-300 transition duration-300">
-              About
+            <a href="#profile" className="hover:text-gray-300 transition duration-300">
+              Profile
             </a>
           </li>
 
           <li>
-            <a href="#projects" className="hover:text-gray-300 transition duration-300">
-              Projects
+            <a href="#resume" className="hover:text-gray-300 transition duration-300 cursor;pointer">
+              Resume
             </a>
           </li>
         </ul>
