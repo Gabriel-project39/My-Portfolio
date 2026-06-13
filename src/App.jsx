@@ -3,6 +3,9 @@ import { useState } from 'react'
 import Beams from "./Beams";
 import './Beams.css'
 import Navbar from "./Navbar";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 
 import {
   FaHtml5,
@@ -241,6 +244,39 @@ function App() {
   </div>
   </div>
 </section>
+
+<section className="min-h-screen bg-black flex items-center justify-center px-6">
+      <div className="text-center">
+
+        {/* Heading */}
+        <h2 className="text-white text-4xl md:text-6xl font-bold leading-tight">
+          Let's work <br />
+          together. <br />
+          Get in touch.
+        </h2>
+
+        {/* Social Icons */}
+        <div className="flex justify-center gap-8 mt-8">
+
+          <a
+            href="mailto:gabrielkimanthi39r@email.com"
+            className="text-white text-4xl hover:scale-110 transition duration-300"
+          >
+            <MdEmail />
+          </a>
+
+          <a
+            href="www.linkedin.com/in/gabriel-kimanthi-8777ab344"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-4xl hover:scale-110 transition duration-300"
+          >
+            <FaLinkedinIn />
+          </a>
+        </div>
+
+      </div>
+    </section>
 
 
       {/* OTHER SECTIONS */}
