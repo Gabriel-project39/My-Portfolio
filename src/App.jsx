@@ -184,7 +184,7 @@ function App() {
       </p>
 
       <a
-        href="/project"
+        href="/elixir-business"
         className="px-4 py-2 bg-white text-black rounded-full inline-block"
       >
         View Project
@@ -208,7 +208,7 @@ function App() {
       </p>
 
       <a
-        href="/project"
+        href="/velocity-motors"
         className="px-4 py-2 bg-white text-black rounded-full inline-block"
       >
         View Project
@@ -232,7 +232,7 @@ function App() {
       </p>
 
       <a
-        href="/project"
+        href="/brew-haven"
         className="px-4 py-2 bg-white text-black rounded-full inline-block"
       >
         View Project
