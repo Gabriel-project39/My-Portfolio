@@ -7,9 +7,6 @@ import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Profile from "./Profile";
 
-import { Routes, Route } from "react-router-dom";
-
-
 import {
   FaHtml5,
   FaCss3Alt,
@@ -29,8 +26,8 @@ import {
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
-    <>
+ return (
+        <>
       {/* MAIN BACKGROUND WRAPPER */}
       <div className="w-full h-screen bg-black relative overflow-hidden">
 
@@ -54,7 +51,7 @@ function App() {
         </div>
 
         {/* HOME TEXT ON TOP OF BEAMS */}
-        <section
+       <section
           id="home"
           className="relative z-10 min-h-screen flex flex-col justify-center items-center text-white"
         >
@@ -313,14 +310,9 @@ function App() {
 
 </footer>
 
-
-      {/* OTHER SECTIONS */}
-      <section id="profile">
-  <Profile />
-</section>
-      <section id="projects"></section>
-    </>
-  )
+        </>
+      
+)
 }
 
 export default App

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-md cursor-pointer">
@@ -9,11 +10,14 @@ export default function Navbar() {
             </a>
           </li>
 
-          <li>
-            <a href="#profile" className="hover:text-gray-300 transition duration-300">
-              Profile
-            </a>
-          </li>
+         <li>
+     <Link
+    to="/profile"
+    className="hover:text-gray-300 transition duration-300"
+    >
+    Profile
+  </Link>
+   </li>
 
           <li>
             <a href="#resume" className="hover:text-gray-300 transition duration-300 cursor-pointer">
