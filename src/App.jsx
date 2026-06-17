@@ -5,6 +5,9 @@ import './Beams.css'
 import Navbar from "./Navbar";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import Profile from "./Profile";
+
+import { Routes, Route } from "react-router-dom";
 
 
 import {
@@ -312,7 +315,9 @@ function App() {
 
 
       {/* OTHER SECTIONS */}
-      <section id="profile"></section>
+      <section id="profile">
+  <Profile />
+</section>
       <section id="projects"></section>
     </>
   )
