@@ -32,6 +32,16 @@ function App() {
       <div className="w-full h-screen bg-black relative overflow-hidden">
 
         {/* BACKGROUND (BEAMS) */}
+        <div
+  className="pointer-events-none"
+  style={{
+   width: "100%",
+    height: "600px",
+    position: "absolute",
+    top: 0,
+    left: 0,
+  }}
+></div>
         <div style={{ width: '100%', height: '600px', position: 'absolute', top: 0, left: 0 }}>
           <Beams
             beamWidth={3}

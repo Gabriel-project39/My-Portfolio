@@ -12,7 +12,7 @@ function Profile() {
           </p>
 
           <h1 className="text-7xl md:text-8xl font-extrabold mb-6 bg-gradient-to-r from-white via-purple-300 to-blue-400 bg-clip-text text-transparent">
-            Stenton Kimanthi
+            Gabriel Kimanthi
           </h1>
 
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
