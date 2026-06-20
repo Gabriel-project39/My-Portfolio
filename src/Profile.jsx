@@ -1,9 +1,13 @@
+import Navbar from "./Navbar";
 
 function Profile() {
   return (
-    <div>
-      {/* Dark Overlay */}
-      <div className="min-h-screen bg-black/75 backdrop-blur-sm px-8 py-20">
+    <>
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Main Page */}
+      <div className="min-h-screen bg-black/75 backdrop-blur-sm px-8 py-32">
 
         {/* Hero Section */}
         <div className="text-center mb-24">
@@ -97,9 +101,8 @@ function Profile() {
           </div>
 
         </div>
-
       </div>
-    </div>
+    </>
   );
 }
 
