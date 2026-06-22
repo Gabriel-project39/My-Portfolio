@@ -193,7 +193,7 @@ function App() {
       </h2>
 
       <p className="text-gray-400 mb-4">
-        Elixir Business is a modern corporate website built to provide businesses with a strong digital presence. The project was designed with a focus on clean layouts, intuitive navigation, and responsive design to ensure a seamless experience across all devices. Using React and Tailwind CSS, I created an interface that balances performance, visual appeal, and usability while effectively communicating business services and brand identity.
+        Elixir Business is a modern business website built with React and Tailwind CSS, focused on clean design, responsiveness, and user experience.
       </p>
 
       <a
