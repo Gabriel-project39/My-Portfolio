@@ -5,7 +5,7 @@ function VelocityMotors() {
 
         {/* Project Name */}
         <h1 className="text-5xl font-bold mb-8 text-center">
-          Velocity Motors
+         Fast and Furious Automatives
         </h1>
 
         {/* Project Description */}
@@ -15,7 +15,7 @@ function VelocityMotors() {
           </h2>
 
           <p className="text-gray-300 leading-8 text-center">
-            Velocity Motors is a modern car dealership website that allows users
+            Fast and Furious Automatives is a modern car dealership website that allows users
             to browse vehicle collections, explore specifications, and contact
             the dealership through an intuitive and responsive interface.
           </p>
@@ -60,7 +60,7 @@ function VelocityMotors() {
             </span>
 
             <span className="px-4 py-2 bg-white/10 rounded-full">
-              Tailwind CSS
+               CSS
             </span>
 
             <span className="px-4 py-2 bg-white/10 rounded-full">

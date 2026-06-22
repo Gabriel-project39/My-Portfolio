@@ -189,11 +189,11 @@ function App() {
       />
 
       <h2 className="text-2xl font-semibold mb-2">
-        MatatuMap
+        Elixir
       </h2>
 
       <p className="text-gray-400 mb-4">
-        Smart transport guide helping commuters navigate routes and fares.
+        Elixir Business is a modern corporate website built to provide businesses with a strong digital presence. The project was designed with a focus on clean layouts, intuitive navigation, and responsive design to ensure a seamless experience across all devices. Using React and Tailwind CSS, I created an interface that balances performance, visual appeal, and usability while effectively communicating business services and brand identity.
       </p>
 
       <a
@@ -213,7 +213,7 @@ function App() {
       />
 
       <h2 className="text-2xl font-semibold mb-2">
-        Fast and Furious
+        Fast and Furious Automotives
       </h2>
 
       <p className="text-gray-400 mb-4">
