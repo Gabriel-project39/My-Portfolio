@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 
 import App from './App.jsx'
+import Resume from "./Resume";
 import Profile from "./Profile.jsx";
 import ProjectDetails from './ProjectDetails.jsx'
 import VelocityMotors from './VelocityMotors.jsx'
@@ -20,6 +21,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App />} />
 
         <Route path="/profile" element={<Profile />} />
+
+        <Route path="/resume" element={<Resume />} />
 
         {/* Decode Solution */}
         <Route path="/project" element={<ProjectDetails />} />

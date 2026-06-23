@@ -26,7 +26,7 @@ export default function Navbar() {
 
           <li>
             <a
-              href="#resume"
+              href="/resume"
               className="hover:text-gray-300 transition duration-300"
             >
               Resume
