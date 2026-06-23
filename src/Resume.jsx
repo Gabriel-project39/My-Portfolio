@@ -1,4 +1,5 @@
 import { FaDownload, FaEye } from "react-icons/fa";
+import Navbar from "./Navbar";
 
 function Resume() {
   return (
