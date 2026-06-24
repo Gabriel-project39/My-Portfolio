@@ -29,6 +29,11 @@ function App() {
 
  return (
         <>
+        {/* NAVBAR ON TOP */}
+        <div className="relative z-10">
+          <Navbar />
+        </div>
+        
       {/* MAIN BACKGROUND WRAPPER */}
       <div className="w-full h-screen bg-black relative overflow-hidden">
 
@@ -56,10 +61,7 @@ function App() {
           />
         </div>
 
-        {/* NAVBAR ON TOP */}
-        <div className="relative z-10">
-          <Navbar />
-        </div>
+        
 
         {/* HOME TEXT ON TOP OF BEAMS */}
        <section
