@@ -3,6 +3,9 @@ import Navbar from "./Navbar";
 
 function Resume() {
   return (
+ <>
+      <Navbar />
+
     <div className="min-h-screen bg-black text-white px-6">
 
       {/* Top button area */}
@@ -43,6 +46,7 @@ function Resume() {
       </div>
 
     </div>
+      </>
   );
 }
 
