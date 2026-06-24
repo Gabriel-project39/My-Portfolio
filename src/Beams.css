@@ -4,3 +4,7 @@
   height: 100%;
   pointer-events: none;
 }
+
+canvas {
+  pointer-events: none;
+}

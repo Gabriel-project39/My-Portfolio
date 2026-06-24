@@ -30,16 +30,16 @@ function App() {
  return (
         <>
         {/* NAVBAR ON TOP */}
-        <div className="relative z-10">
+        <div className="fixed top-0 left-0 w-full z-[99999] bg-black/50 backdrop-blur-md">
           <Navbar />
         </div>
-        
+
       {/* MAIN BACKGROUND WRAPPER */}
       <div className="w-full h-screen bg-black relative overflow-hidden">
 
         {/* BACKGROUND (BEAMS) */}
         <div
-  className="pointer-events-none"
+  
   style={{
    width: "100%",
     height: "600px",
