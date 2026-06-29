@@ -46,6 +46,38 @@ function Resume() {
       </div>
 
     </div>
+
+{/* Footer */}
+<footer className="bg-black text-white py-10 px-6 border-t border-gray-800">
+
+  {/* Copyright */}
+  <p className="text-center text-gray-400 text-sm mb-8">
+    © Gabriel Kimanthi 2026
+  </p>
+
+  {/* Footer Links */}
+  <div className="max-w-4xl mx-auto flex justify-center gap-16 text-sm md:text-base">
+
+    <a
+      href="https://www.linkedin.com/in/gabriel-kimanthi-8777ab344"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-yellow-300 transition duration-300"
+    >
+      LinkedIn
+    </a>
+
+    <a
+      href="mailto:gabrielkimanthi39r@email.com"
+      className="hover:text-yellow-300 transition duration-300"
+    >
+      Mail
+    </a>
+
+  </div>
+
+</footer>
+
       </>
   );
 }
