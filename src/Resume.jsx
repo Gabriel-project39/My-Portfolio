@@ -11,16 +11,7 @@ function Resume() {
       {/* Top button area */}
       <div className="pt-40 flex justify-center gap-6">
 
-        {/* VIEW PDF */}
-        <a
-          href="/Gabriel-Kimanthi-CV.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-3 px-8 py-4 rounded-xl bg-white text-black font-semibold hover:scale-105 transition"
-        >
-          <FaEye />
-          View CV
-        </a>
+        
 
         {/* DOWNLOAD PDF */}
         <a
