@@ -15,7 +15,7 @@ function Resume() {
 
         {/* DOWNLOAD PDF */}
         <a
-          href="/public/Gabriel Kimanthi Resume (2).pdf"
+          href="/Gabriel Kimanthi Resume (2).pdf"
           download
           className="flex items-center gap-3 px-8 py-4 rounded-xl bg-yellow-900/50 hover:bg-yellow-800/60 transition"
         >
