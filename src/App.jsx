@@ -162,7 +162,7 @@ function App() {
     {/* Decode Solution */}
     <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-300">
       <img
-        src="decode.png"
+        src="/decode.png"
         alt="Decode Solution"
         className="rounded-xl mb-4 w-full"
       />
@@ -186,7 +186,7 @@ function App() {
     {/* MatatuMap */}
     <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-300">
       <img
-        src="elixir.png"
+        src="/elixir.png"
         alt="MatatuMap"
         className="rounded-xl mb-4 w-full"
       />
@@ -210,7 +210,7 @@ function App() {
     {/* Velocity Motors */}
     <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-300">
       <img
-        src="fast.png"
+        src="/fast.png"
         alt=""
         className="rounded-xl mb-4 w-full"
       />
@@ -234,7 +234,7 @@ function App() {
     {/* Brew Haven Coffee */}
     <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:scale-105 transition duration-300">
       <img
-        src="cofe.png"
+        src="/cofe.png"
         alt="Brew Haven Coffee"
         className="rounded-xl mb-4 w-full"
       />
