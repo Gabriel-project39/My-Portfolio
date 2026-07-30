@@ -216,7 +216,7 @@ function App() {
       />
 
       <h2 className="text-2xl font-semibold mb-2">
-        Fast and Furious Automotives
+         Velocity Motors
       </h2>
 
       <p className="text-gray-400 mb-4">

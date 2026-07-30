@@ -5,7 +5,7 @@ function VelocityMotors() {
 
         {/* Project Name */}
         <h1 className="text-5xl font-bold mb-8 text-center">
-         Fast and Furious Automatives
+         Velocity Motors
         </h1>
 
         {/* Project Description */}
@@ -15,9 +15,8 @@ function VelocityMotors() {
           </h2>
 
           <p className="text-gray-300 leading-8 text-center">
-            Fast and Furious Automatives is a modern car dealership website that allows users
-            to browse vehicle collections, explore specifications, and contact
-            the dealership through an intuitive and responsive interface.
+            Velocity Motors is a modern car dealership website that allows users to browse vehicle collections, 
+            explore specifications, and contact the dealership through an intuitive and responsive interface.
           </p>
         </div>
 
@@ -72,7 +71,7 @@ function VelocityMotors() {
         {/* Buttons */}
         <div className="flex justify-center gap-4 mt-16 flex-wrap">
           <a
-            href="https://fastcarsfurious.netlify.app/"
+            href="https://velocity-moto.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-white text-black rounded-full font-semibold"
@@ -81,7 +80,7 @@ function VelocityMotors() {
           </a>
 
           <a
-            href="https://github.com/Gabriel-project39/Fast-and-furious"
+            href="https:"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 border border-white rounded-full"
