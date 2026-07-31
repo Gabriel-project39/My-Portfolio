@@ -1,40 +1,60 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-export default function Navbar() {
+function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-[9999] bg-black/50 backdrop-blur-md">
-      <div className="max-w-7xl mx-auto px-6 py-4">
-        <ul className="flex justify-center items-center gap-12 text-white font-medium">
+    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50">
+      <div
+        className="
+          flex items-center gap-2
+          px-3 py-3
+          rounded-full
+          border border-white/10
+          bg-white/5
+          backdrop-blur-xl
+          shadow-[0_8px_32px_rgba(255,255,255,0.08)]
+        "
+      >
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            `px-6 py-2 rounded-full transition-all duration-300 ${
+              isActive
+                ? "bg-white text-black font-semibold shadow-lg"
+                : "text-white hover:bg-white/10 hover:scale-105"
+            }`
+          }
+        >
+          Home
+        </NavLink>
 
-          <li>
-            <Link
-              to="/"
-              className="hover:text-gray-300 transition duration-300"
-            >
-              Home
-            </Link>
-          </li>
+        <NavLink
+          to="/profile"
+          className={({ isActive }) =>
+            `px-6 py-2 rounded-full transition-all duration-300 ${
+              isActive
+                ? "bg-white text-black font-semibold shadow-lg"
+                : "text-white hover:bg-white/10 hover:scale-105"
+            }`
+          }
+        >
+          Profile
+        </NavLink>
 
-          <li>
-            <Link
-              to="/profile"
-              className="hover:text-gray-300 transition duration-300"
-            >
-              Profile
-            </Link>
-          </li>
-
-          <li>
-            <a
-              href="/resume"
-              className="hover:text-gray-300 transition duration-300"
-            >
-              Resume
-            </a>
-          </li>
-
-        </ul>
+        <NavLink
+          to="/resume"
+          className={({ isActive }) =>
+            `px-6 py-2 rounded-full transition-all duration-300 ${
+              isActive
+                ? "bg-white text-black font-semibold shadow-lg"
+                : "text-white hover:bg-white/10 hover:scale-105"
+            }`
+          }
+        >
+          Resume
+        </NavLink>
       </div>
     </nav>
   );
 }
+
+export default Navbar;
