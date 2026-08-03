@@ -68,9 +68,16 @@ function App() {
           id="home"
           className="relative z-10 min-h-screen flex flex-col justify-center items-center text-white"
         >
-          <h1 className="text-8xl font-extrabold mb-10">
+          <h1 className="
+    hero-title
+    text-8xl
+    font-black
+    mb-10
+    text-center
+    select-none
+  ">
             Gabriel Kimanthi
-          </h1>
+         </h1>
 
          <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 mb-6">
   <button className="px-6 py-2 bg-white/10 border border-white/20 rounded-full text-white backdrop-blur-md hover:bg-white/20 transition">
@@ -90,7 +97,7 @@ function App() {
   </button>
 </div>
 
-<p className="text-gray-400 text-3xl mt-9 max-w-2xl">
+<p className="text-gray-400 text-3xl mt-9 max-w-2xl text-center mx-auto">
   Frontend Developer crafting responsive, user-focused interfaces.
   </p>
           
