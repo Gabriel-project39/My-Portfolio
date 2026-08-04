@@ -7,6 +7,7 @@ import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Profile from "./Profile";
 import Resume from "./Resume";
+import { motion } from "framer-motion";
 
 import {
   FaHtml5,
@@ -23,6 +24,32 @@ import {
   SiNextdotjs,
   SiTypescript,
 } from "react-icons/si";
+
+const container = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.15,
+    },
+  },
+};
+
+const item = {
+  hidden: {
+    opacity: 0,
+    y: 40,
+    scale: 0.8,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.6,
+      ease: "easeOut",
+    },
+  },
+};
 
 function App() {
   const [count, setCount] = useState(0)
@@ -111,7 +138,7 @@ function App() {
 
     <h2 className="text-6xl md:text-8xl font-bold text-white text-center">
       Empowering brands worldwide with exceptional
-      <span className="text-cyan-400"> Software</span> solutions.
+      <span className=""> Software</span> solutions.
     </h2>
 
     
@@ -120,35 +147,61 @@ function App() {
         Technologies I Use
       </h3>
 </div>
-      <div className="mt-40 backdrop-blur-lg bg-white/5 border border-white/10 rounded-3xl p-12">
+     <div className="mt-40 backdrop-blur-lg bg-white/5 border border-white/10 rounded-3xl p-12">
 
-  <div className="flex flex-wrap justify-center items-center gap-12">
+  <motion.div
+    className="flex flex-wrap justify-center items-center gap-12"
+    variants={container}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: true, amount: 0.3 }}
+  >
 
-    <FaHtml5 className="text-7xl text-orange-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    <motion.div variants={item}>
+      <FaHtml5 className="text-7xl text-gray-300 hover:text-orange-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    </motion.div>
 
-    <FaCss3Alt className="text-7xl text-blue-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    <motion.div variants={item}>
+      <FaCss3Alt className="text-7xl text-gray-300 hover:text-blue-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    </motion.div>
 
-    <FaJs className="text-7xl text-yellow-400 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    <motion.div variants={item}>
+      <FaJs className="text-7xl text-gray-300 hover:text-yellow-400 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    </motion.div>
 
-    <FaReact className="text-7xl text-cyan-400 hover:scale-125 hover:rotate-180 transition-all duration-500 cursor-pointer" />
+    <motion.div variants={item}>
+      <FaReact className="text-7xl text-gray-300 hover:text-cyan-400 hover:rotate-180 hover:scale-125 transition-all duration-500 cursor-pointer" />
+    </motion.div>
 
-    <FaBootstrap className="text-7xl text-purple-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    <motion.div variants={item}>
+      <FaBootstrap className="text-7xl text-gray-300 hover:text-purple-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    </motion.div>
 
-    <SiTailwindcss className="text-7xl text-cyan-300 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    <motion.div variants={item}>
+      <SiTailwindcss className="text-7xl text-gray-300 hover:text-cyan-300 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    </motion.div>
 
-    <FaGithub className="text-7xl text-white hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    <motion.div variants={item}>
+      <FaGithub className="text-7xl text-gray-300 hover:text-white hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    </motion.div>
 
-    <FaFigma className="text-7xl text-pink-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    <motion.div variants={item}>
+      <FaFigma className="text-7xl text-gray-300 hover:text-pink-500 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    </motion.div>
 
-    <SiNextdotjs className="text-7xl text-white hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    <motion.div variants={item}>
+      <SiNextdotjs className="text-7xl text-gray-300 hover:text-white hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    </motion.div>
 
-    <SiTypescript className="text-7xl text-blue-400 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    <motion.div variants={item}>
+      <SiTypescript className="text-7xl text-gray-300 hover:text-blue-400 hover:scale-125 hover:-translate-y-3 transition-all duration-300 cursor-pointer" />
+    </motion.div>
 
-  </div>
+  </motion.div>
 
 </div>
+  </div>
 
-    </div>
 
 
 </section>
