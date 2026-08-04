@@ -105,7 +105,7 @@ function App() {
 
       </div>
 
-      <section className="w-full bg-[#0F172A] py-32">
+      <section className="w-full bg-black py-32">
         
   <div className="max-w-7xl mx-auto px-6">
 
