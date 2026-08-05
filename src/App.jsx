@@ -376,7 +376,7 @@ function App() {
       href="mailto:gabrielkimanthi39r@email.com"
       className="hover:text-yellow-300 transition duration-300"
     >
-      Mail
+      Mails
     </a>
 
   </div>
