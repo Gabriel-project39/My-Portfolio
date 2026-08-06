@@ -353,31 +353,94 @@ function App() {
 </section>
 
 {/* Footer */}
-<footer className="bg-black text-white py-10 px-6 border-t border-gray-800">
+<footer className="relative mt-40 overflow-hidden border-t border-white/10 bg-black">
 
-  {/* Copyright */}
-  <p className="text-center text-gray-400 text-sm mb-8">
-    © Gabriel Kimanthi 2026
-  </p>
+  {/* Background Glow */}
+  <div className="absolute inset-0 bg-gradient-to-t from-white/5 via-transparent to-transparent"></div>
 
-  {/* Footer Links */}
-  <div className="max-w-4xl mx-auto flex justify-center gap-16 text-sm md:text-base">
+  <div className="relative max-w-7xl mx-auto px-8 py-20">
 
-    <a
-      href="https://www.linkedin.com/in/gabriel-kimanthi-8777ab344"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-yellow-300 transition duration-300"
-    >
-      LinkedIn
-    </a>
+    {/* Heading */}
+    <div className="text-center mb-14">
+      <p className="text-sm uppercase tracking-[0.35em] text-gray-500 mb-5">
+        Available for Work
+      </p>
 
-    <a
-      href="mailto:gabrielkimanthi39r@email.com"
-      className="hover:text-yellow-300 transition duration-300"
-    >
-      Mails
-    </a>
+      <h2 className="text-5xl md:text-7xl font-black leading-tight">
+        Let's Build
+        <br />
+        Something Amazing.
+      </h2>
+
+      <p className="text-gray-400 mt-8 max-w-2xl mx-auto text-lg leading-8">
+        I'm always open to discussing new opportunities, freelance
+        projects, collaborations, or simply connecting with fellow
+        developers.
+      </p>
+    </div>
+
+    {/* Buttons */}
+    <div className="flex flex-wrap justify-center gap-6 mb-20">
+
+      <a
+  href="mailto:gabrielkimanthi39@gmail.com"
+  className="group px-8 py-4 rounded-full bg-white text-black font-semibold transition-all duration-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(255,255,255,.25)]"
+>
+  Send Email
+</a>
+      <a
+        href="https://www.linkedin.com/in/gabriel-kimanthi-8777ab344"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group px-8 py-4 rounded-full border border-white/20 text-white backdrop-blur-xl transition-all duration-500 hover:border-white hover:bg-white/10 hover:scale-105"
+      >
+        LinkedIn →
+      </a>
+
+    </div>
+
+    {/* Divider */}
+    <div className="h-px bg-gradient-to-r from-transparent via-white/20 to-transparent mb-10"></div>
+
+    {/* Bottom */}
+    <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+
+      <div>
+        <h3 className="text-2xl font-bold">
+          Gabriel Kimanthi
+        </h3>
+
+        <p className="text-gray-500 mt-2">
+          Frontend Developer • React Developer • UI Designer
+        </p>
+      </div>
+
+      <div className="flex gap-8 text-gray-400">
+
+        <a
+          href="https://www.linkedin.com/in/gabriel-kimanthi-8777ab344"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white transition-all duration-300 hover:-translate-y-1"
+        >
+          LinkedIn
+        </a>
+
+        <a
+          href="mailto:gabrielkimanthi39r@email.com"
+          className="hover:text-white transition-all duration-300 hover:-translate-y-1"
+        >
+          Email
+        </a>
+
+      </div>
+
+    </div>
+
+    {/* Copyright */}
+    <div className="mt-12 text-center text-gray-600 text-sm">
+      © 2026 Gabriel Kimanthi. Designed & Built with React + Tailwind CSS.
+    </div>
 
   </div>
 
